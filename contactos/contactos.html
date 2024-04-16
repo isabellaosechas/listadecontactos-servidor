@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lista de Contactos</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<button class="log-out">Cerrar sesion</button>
+		<div class="container">
+			<h1 id="title">Contactos</h1>
+			<form id="form">
+				<div class="form-input-container">
+					<label for="input-name"></label>
+					<input
+						type="text"
+						id="input-name"
+						name="input-name"
+						placeholder="Nombre" />
+					<p class="info">
+						Tiene que incluir nombre y apellido. <br />
+						Tanto el nombre como el apellido deben comenzar con mayusculas.
+					</p>
+				</div>
+				<div class="form-input-container">
+					<label for="input-number"></label>
+					<input
+						type="text"
+						id="input-number"
+						name="input-number"
+						placeholder="Numero" />
+					<p class="info">Tiene que ser un numero venezolano.</p>
+				</div>
+				<button id="form-btn" disabled>Crear</button>
+			</form>
+			<div id="lista">
+				<ul id="list"></ul>
+			</div>
+		</div>
+
+		<script src="dom.js"></script>
+	</body>
+</html>

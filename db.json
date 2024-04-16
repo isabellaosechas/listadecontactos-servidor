@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": "046d",
+      "username": "isa555"
+    },
+    {
+      "id": "6662",
+      "username": "isa222"
+    },
+    {
+      "id": "a7c8",
+      "username": "leo"
+    }
+  ],
+  "contactos": [
+    {
+      "id": "62fa",
+      "name": "Leopoldo Flaco",
+      "number": "04141234567",
+      "user": "leo"
+    },
+    {
+      "id": "fa69",
+      "name": "Isabella Osechas",
+      "number": "04128845988",
+      "user": "isa555"
+    }
+  ]
+}
